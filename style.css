@@ -1,0 +1,168 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+a {
+  color: #4286f4;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th {
+  background-color: #d22c2c;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-align: left;
+  padding: 10px;
+}
+
+th, td {
+  border: 1px solid #d22c2c;
+  padding: 10px;
+}
+
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #d22c2c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #d22c2c;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+header nav ul li a {
+  color: #d22c2c;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #d22c2c;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* About page styles */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #d22c2c;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.about-section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Data page styles */
+.data-section h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #d22c2c;
+}
+
+.data-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.data-section a {
+  color: #4286f4;
+}
+
+.data-section a:hover {
+  text-decoration: underline;
+}
+
+/* References page styles */
+.references-section h2 {
+  font-size: 24px;
+  margin-top: 
